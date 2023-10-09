@@ -1,0 +1,135 @@
+ .home-header-wrap { 
+	background-color:#8f8ff1;
+	/* width:1440px; */
+    width: 100%;
+	height:400px;
+	position:absolute;
+	left:0px;
+	top:0px;
+    min-width: 1440px;
+}
+.home-header-container { 
+	width:1032px;
+	height:400px;
+	position:absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.home-header { 
+	width:1032px;
+	height:60px;
+	position:absolute;
+	left:0px;
+	top:10px;
+}
+.logo-icon { 
+	width:124px;
+	height:60px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+.logo-img { 
+    width:42px;
+    height:29px;
+    position:absolute;
+    left:0px;
+    top:-1px;
+    background-image:url(../assets/images/logo-img.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.logo-text { 
+	color:rgba(0, 0, 0, 1);
+	width:82px;
+	height:17px;
+	position:absolute;
+	left:43px;
+	top:15px;
+	font-family: 'Open Sans';
+	text-align:left;
+	font-size:16px;
+	letter-spacing:0;
+}
+.main-menu { 
+	width:334px;
+	height:20px;
+	position:absolute;
+	left:698px;
+	top:20px;
+}
+.main-menu-ul {
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    height: 60px;
+    justify-content: flex-end;
+}
+.menu-item-li {
+    align-items: center;
+    color: #ffffff;
+    display: flex;
+    font-family: 'Noto Sans KR';
+    font-size: 20px;
+    font-weight: 900;
+    height: 100%;
+    justify-content: center;
+    width: 80px;
+    margin: 20px;
+}
+.menu-text {
+    width: 100%;
+    height: 100%;
+    line-height: 60px;
+    text-align: center;
+}
+
+.cta { 
+	width:1032px;
+	height:320px;
+	position:absolute;
+	left:0px;
+	top:70px;
+}
+.home-search { 
+	width:1012px;
+	height:120px;
+	position:absolute;
+	left:10px;
+	top:80px;
+}
+.home-search-text { 
+	color:rgba(255, 255, 255, 1);
+	width:503px;
+	height:39px;
+	position:absolute;
+	left:254.5px;
+	top:0px;
+	font-family:Inter;
+	text-align:left;
+	font-size:32px;
+	letter-spacing:0;
+}
+.home-search-input { 
+	background-color:rgba(217.0000022649765, 217.0000022649765, 217.0000022649765, 1);
+	width:503px;
+	height:45px;
+	position:absolute;
+    left:254.5px;
+	top:63px;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px;
+}
+.home-search-input-icon { 
+	width:40px;
+	height:40px;
+	position:absolute;
+	left:23.5px;
+	top:2.5px;
+    background-image:url(../assets/images/search-icon.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
