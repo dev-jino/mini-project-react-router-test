@@ -8,6 +8,7 @@ import Main from './pages/Main';
 import LayoutHome from './components/LayoutHome';
 import Layout from './components/Layout';
 import ItemDetail from './pages/ItemDetail';
+import OrderCheck from './pages/OrderCheck';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
         </Route>
         <Route element={<Layout />}>
           <Route path='/item-detail' element={<ItemDetail />}/>
+          <Route path='/order-check' element={<OrderCheck />}/>
         </Route>
       </Routes>
     </BrowserRouter>
