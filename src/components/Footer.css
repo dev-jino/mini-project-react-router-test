@@ -1,4 +1,4 @@
-.e42_1369 { 
+.footer { 
 	background-color:rgba(249.00000035762787, 249.00000035762787, 249.00000035762787, 1);
 	/* width:1440px; */
     width: 100%;
@@ -8,45 +8,39 @@
 	top:824px;
     min-width: 1440px;
 }
-.ei42_1369_22_50 { 
+.footer-container { 
 	width:1032px;
 	height:150px;
 	position:absolute;
-	/* left:204px;
-	top:25px; */
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
 }
-.ei42_1369_22_51 { 
+.footer-container-row { 
 	width:1032px;
 	height:150px;
 	position:absolute;
 	left:0px;
 	top:0px;
 }
-.ei42_1369_22_52 { 
+.footer-container-col-left { 
 	width:328px;
 	height:150px;
 	position:absolute;
 	left:0px;
 	top:0px;
 }
-.ei42_1369_22_53 { 
-	width:328px;
-	height:150px;
+.logo-img { 
+	width:42px;
+	height:29px;
 	position:absolute;
 	left:0px;
-	top:0px;
+	top:-1px;
+	background-image:url(../assets/images/logo-img.png);
+	background-repeat:no-repeat;
+	background-size:cover;
 }
-.ei42_1369_22_61 { 
-	width:124px;
-	height:30px;
-	position:absolute;
-	left:1px;
-	top:120px;
-}
-.ei42_1369_22_61_18_93 { 
+.logo-text { 
 	color:rgba(0, 0, 0, 1);
 	width:82px;
 	height:17px;
@@ -58,17 +52,7 @@
 	font-size:16px;
 	letter-spacing:0;
 }
-.ei42_1369_22_61_18_180 { 
-	width:42px;
-    height:29px;
-    position:absolute;
-    left:0px;
-    top:-1px;
-    background-image:url(../assets/images/logo-img.png);
-    background-repeat:no-repeat;
-    background-size:cover;
-}
-.ei42_1369_22_64 { 
+.footer-container-col-left-text { 
 	color:rgba(0, 0, 0, 1);
 	width:250px;
 	height:32px;
@@ -77,24 +61,17 @@
 	top:75px;
 	font-family: 'Noto Sans KR';
 	text-align:left;
-	font-size:10px;
+	font-size:12px;
 	letter-spacing:0;
 }
-.ei42_1369_22_70 { 
+.footer-container-col-right { 
 	width:328px;
 	height:150px;
 	position:absolute;
 	left:704px;
 	top:0px;
 }
-.ei42_1369_22_71 { 
-	width:328px;
-	height:150px;
-	position:absolute;
-	left:0px;
-	top:0px;
-}
-.ei42_1369_22_77 { 
+.gitbub-icon { 
 	width:45px;
 	height:45px;
 	position:absolute;
@@ -104,7 +81,7 @@
 	background-repeat:no-repeat;
 	background-size:cover;
 }
-.ei42_1369_22_72 { 
+.footer-container-col-right-text { 
 	color:rgba(0, 0, 0, 1);
 	width:297px;
 	height:15px;
@@ -113,6 +90,6 @@
 	top:75px;
 	font-family:Inter;
 	text-align:right;
-	font-size:10px;
+	font-size:12px;
 	letter-spacing:0;
 }
