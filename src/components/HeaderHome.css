@@ -1,4 +1,4 @@
- .home-header-wrap { 
+.home-header-wrap { 
 	background-color:#8f8ff1;
 	/* width:1440px; */
     width: 100%;
@@ -8,7 +8,7 @@
 	top:0px;
     min-width: 1440px;
 }
-.home-header-container { 
+.home-header-container {
 	width:1032px;
 	height:400px;
 	position:absolute;
@@ -25,7 +25,7 @@
 }
 .logo-icon { 
 	width:124px;
-	height:60px;
+	height:34px;
 	position:absolute;
 	left:0px;
 	top:0px;
@@ -106,9 +106,9 @@
 	position:absolute;
 	left:254.5px;
 	top:0px;
-	font-family:Inter;
+	font-family:'Noto Sans KR';
 	text-align:left;
-	font-size:32px;
+	font-size:30px;
 	letter-spacing:0;
 }
 .home-search-input { 
@@ -132,4 +132,46 @@
     background-image:url(../assets/images/search-icon.png);
 	background-repeat:no-repeat;
 	background-size:cover;
+}
+
+@media (max-width: 833px) {
+	.home-header-wrap {
+		width:748px;
+		height:300px;
+		min-width: 834px;
+	}
+	.home-header-container {
+		width:748px;
+		height:300px;
+	}
+	.home-header {
+		width:748px;
+	}
+	.main-menu {
+		width:290px;
+		left:454px;
+	}
+	.cta { 
+		width:748px;
+		height:230px;
+	}
+	.home-search { 
+		width:748px;
+		height:120px;
+		position:absolute;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+	}
+	.home-search-text { 
+		width: 503px;
+		left: 50%;
+		transform: translate(-50%, 0%);
+		font-size:24px;
+	}
+	.home-search-input {
+		top:45px;
+		left: 50%;
+		transform: translate(-50%, 0%);
+	}
 }
