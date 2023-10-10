@@ -1,16 +1,16 @@
 import { Outlet } from 'react-router-dom';
-import Header from './Header';
+import HeaderHome from './HeaderHome';
 import Footer from './Footer';
 import './Layout.css';
 
-function Layout() {
+function LayoutHome() {
     return (
         <div className='wrapper'>
-            <Header />
+            <HeaderHome />
             <Outlet />
             <Footer />
         </div>
     );
 }
 
-export default Layout;
+export default LayoutHome;

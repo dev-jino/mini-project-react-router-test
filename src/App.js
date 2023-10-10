@@ -5,7 +5,9 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import HeaderHome from'./components/HeaderHome';
 import Footer from './components/Footer';
 import Main from './pages/Main';
+import LayoutHome from './components/LayoutHome';
 import Layout from './components/Layout';
+import ItemDetail from './pages/ItemDetail';
 
 
 function App() {
@@ -17,9 +19,11 @@ function App() {
     // </Fragment>
     <BrowserRouter>
       <Routes>
-        <Route element={<Layout />}>
+        <Route element={<LayoutHome />}>
           <Route path='/' element={<Main />}/>
-
+        </Route>
+        <Route element={<Layout />}>
+          <Route path='/item-detail' element={<ItemDetail />}/>
         </Route>
       </Routes>
     </BrowserRouter>
