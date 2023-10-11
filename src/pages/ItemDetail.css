@@ -1,285 +1,305 @@
-.main { 
-	width:1440px;
-	height:754px;
-	position:absolute;
-	left:0px;
-	top:70px;
-}
-.item-detail-container { 
-	width:1032px;
-	height:724px;
-	position:absolute;
-	left:204px;
-	top:30px;
-}
-.item-detail-title { 
-	width:856px;
-	height:80px;
-	position:absolute;
-	left:88px;
-	top:0px;
-}
-.item-detail-title-msg { 
-	color:rgba(0, 0, 0, 1);
-	width:856px;
-	height:50px;
-	position:absolute;
-	left:0px;
-	top:30px;
-	font-family:'Noto Sans KR';
-	text-align:left;
-	font-size:24px;
-	letter-spacing:0;
-}
-.item-detail-row { 
-	width:856px;
-	height:350px;
-	position:absolute;
-	left:88px;
-	top:80px;
-}
-.item-detail-left { 
-	width:381px;
-	height:300px;
-	position:absolute;
-	left:18px;
-	top:25px;
-}
-.item-detail-img { 
-	width:381px;
-	height:247px;
-	position:absolute;
-	left:0px;
-	top:20px;
-	background-image:url(../assets/images/home_item_img.png);
-	background-repeat:no-repeat;
-	background-size:cover;
-}
-.item-detail-right { 
-	width:381px;
-	height:300px;
-	position:absolute;
-	left:457px;
-	top:25px;
-}
-.item-detail-name { 
-	background-color:rgba(255, 255, 255, 1);
-	width:381px;
-	height:60px;
-	position:absolute;
-	left:0px;
-	top:20px;
-}
-.item-detail-name-text { 
-	color:rgba(0, 0, 0, 1);
-	width:381px;
-	height:60px;
-	position:absolute;
-	left:0px;
-	top:0px;
-	font-family:'Noto Sans KR';
-	text-align:left;
-	font-size:36px;
-	letter-spacing:0;
-}
-.item-detail-price { 
-	background-color:rgba(255, 255, 255, 1);
-	width:381px;
-	height:30px;
-	position:absolute;
-	left:0px;
-	top:90px;
-}
-.item-detail-price-text { 
-	color:rgba(0, 0, 0, 1);
-	width:381px;
-	height:30px;
-	position:absolute;
-	left:0px;
-	top:0px;
-	font-family:'Noto Sans KR';
-	text-align:left;
-	font-size:20px;
-	letter-spacing:0;
-}
-.item-detail-quantity { 
-	background-color:rgba(255, 255, 255, 1);
-	width:381px;
-	height:59px;
-	position:absolute;
-	left:0px;
-	top:130px;
-}
-.item-detail-quantity-input {
-
-}
-.item-detail-button { 
-	width:381px;
-	height:60px;
-	position:absolute;
-	left:0px;
-	top:214px;
-}
-.button-cart { 
-	background-color:rgba(245.00000059604645, 245.00000059604645, 245.00000059604645, 1);
-	width:160px;
-	height:60px;
-	position:absolute;
-	left:27px;
-	top:0px;
-	border-top-left-radius:10px;
-	border-top-right-radius:10px;
-	border-bottom-left-radius:10px;
-	border-bottom-right-radius:10px;
-}
-.button-cart-text { 
-	color:rgba(0, 0, 0, 1);
-	width:160px;
-	height:60px;
-	position:absolute;
-	left:0px;
-	top:0px;
-	font-family:'Open Sans';
-	text-align:center;
-	font-size:20px;
-	letter-spacing:0;
-    line-height: 60px;
-}
-.button-buy { 
-	background-color:rgba(143.70755910873413, 143.70755910873413, 241.18749797344208, 1);
-	width:160px;
-	height:60px;
-	position:absolute;
-	left:197px;
-	top:0px;
-	border-top-left-radius:10px;
-	border-top-right-radius:10px;
-	border-bottom-left-radius:10px;
-	border-bottom-right-radius:10px;
-}
-.button-buy-text { 
-	color:rgba(0, 0, 0, 1);
-	width:160px;
-	height:60px;
-	position:absolute;
-	left:0px;
-	top:0px;
-	font-family:'Open Sans';
-	text-align:center;
-	font-size:20px;
-	letter-spacing:0;
-    line-height: 60px;
-}
-.item-detail-bottom { 
-	width:856px;
-	height:294px;
-	position:absolute;
-	left:88px;
-	top:430px;
-}
-.item-detail-hr { 
-	background-color:rgba(0, 0, 0, 1);
-	width:856px;
-	height:5px;
-	position:absolute;
-	left:0px;
-	top:0px;
-}
-.item-detail-lowprice { 
-	width:856px;
-	height:289px;
-	position:absolute;
-	left:0px;
-	top:5px;
-}
-.item-detail-lowprice-text { 
-	color:rgba(0, 0, 0, 1);
-	width:836px;
-	height:60px;
-	position:absolute;
-	left:10px;
-	/* top:20px; */
-	font-family:'Open Sans';
-	text-align:left;
-	font-size:20px;
-	letter-spacing:0;
-
-    top: 0px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    line-height: 40px;
-}
-.item-detail-lowprice-wrap { 
-	background-color:rgba(245.00000059604645, 245.00000059604645, 245.00000059604645, 1);
-	width:836px;
-	height:179px;
-	position:absolute;
-	left:10px;
-	top:90px;
-	border-top-left-radius:10px;
-	border-top-right-radius:10px;
-	border-bottom-left-radius:10px;
-	border-bottom-right-radius:10px;
-}
-.item-detail-lowprice-wrap-left { 
-	width:210px;
-	height:149px;
-	position:absolute;
-	left:20px;
-	top:15px;
-}
-.item-detail-lowprice-img { 
-	width:210px;
-	height:149px;
-	position:absolute;
-	left:0px;
-	top:0px;
-	background-image:url(../assets/images/home_item_img.png);
-	background-repeat:no-repeat;
-	background-size:cover;
-}
-.item-detail-lowprice-wrap-right { 
-	width:566px;
-	height:150px;
-	position:absolute;
-	left:250px;
-	top:15px;
-}
-.item-detail-lowprice-name { 
-	width:566px;
-	height:60px;
-	position:absolute;
-	left:0px;
-	top:20px;
-}
-.item-detail-name-text { 
-	color:rgba(0, 0, 0, 1);
-	width:381px;
-	height:60px;
-	position:absolute;
-	left:0px;
-	top:0px;
-	font-family:'Noto Sans KR';
-	text-align:left;
-	font-size:36px;
-	letter-spacing:0;
-}
-.item-detail-lowprice-price { 
-	width:566px;
-	height:50px;
-	position:absolute;
-	left:0px;
-	top:80px;
-}
-.e41_307 { 
-	color:rgba(0, 0, 0, 1);
-	width:381px;
-	height:30px;
-	position:absolute;
-	left:0px;
-	top:0px;
-	font-family:'Noto Sans KR';
-	text-align:left;
-	font-size:20px;
-	letter-spacing:0;
-}
+.item-detail {
+	align-items: flex-start;
+	background-color: #ffffff;
+	display: flex;
+	gap: 10px;
+	height: 424px;
+	min-width: 1440px;
+	position: relative;
+	width: 100%;
+	top: 70px;
+  }
+  
+  .item-detail .wrapper {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	width: 1440px;
+	height: 100%;
+    /* ********************************* */
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    /* ********************************* */
+  }
+  
+  .item-detail .header-instance {
+	align-self: stretch !important;
+	width: 100% !important;
+  }
+  
+  .item-detail .main {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	height: 754px;
+	padding: 30px 0px;
+	position: relative;
+	width: 1440px;
+  }
+  
+  .item-detail .container-2 {
+	align-items: flex-start;
+	display: flex;
+	flex-direction: column;
+	height: 724px;
+	margin-bottom: -30px;
+	padding: 0px 88px;
+	position: relative;
+	width: 1032px;
+  }
+  
+  .item-detail .title {
+	align-items: flex-end;
+	display: flex;
+	height: 80px;
+	position: relative;
+	width: 856px;
+  }
+  
+  .item-detail .title-msg {
+	color: #000000;
+	font-family: "Noto Sans KR";
+	font-size: 24px;
+	font-weight: 900;
+	height: 50px;
+	letter-spacing: 0;
+	line-height: normal;
+	position: relative;
+	width: 856px;
+  }
+  
+  .item-detail .row {
+	align-items: center;
+	display: flex;
+	gap: 58px;
+	height: 350px;
+	padding: 0px 18px;
+	position: relative;
+	width: 856px;
+  }
+  
+  .item-detail .item-detail-left {
+	align-items: flex-start;
+	display: inline-flex;
+	flex: 0 0 auto;
+	flex-direction: column;
+	gap: 10px;
+	height: 300px;
+	padding: 20px 0px;
+	position: relative;
+  }
+  
+  .item-detail .item-detail-img {
+	background-image: url(../assets/images/home_item_img.png);
+	background-position: 50% 50%;
+	background-size: cover;
+	height: 247px;
+	position: relative;
+	width: 381px;
+  }
+  
+  .item-detail .item-detail-right {
+	align-items: flex-start;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	height: 300px;
+	padding: 20px 0px;
+	position: relative;
+	width: 381px;
+  }
+  
+  .item-detail .item-detail-name {
+	background-color: #ffffff;
+	height: 60px;
+	position: relative;
+	width: 381px;
+  }
+  
+  .item-detail .item-detail-name-text {
+	color: #000000;
+	font-family: "Noto Sans KR";
+	font-size: 36px;
+	font-weight: 900;
+	height: 60px;
+	left: 0;
+	letter-spacing: 0;
+	line-height: normal;
+	position: absolute;
+	top: -1px;
+	width: 381px;
+  }
+  
+  .item-detail .item-detail-price {
+	background-color: #ffffff;
+	height: 30px;
+	position: relative;
+	width: 381px;
+  }
+  
+  .item-detail .item-detail-price-text {
+	color: #000000;
+	font-family: "Noto Sans KR";
+	font-size: 20px;
+	font-weight: 900;
+	height: 30px;
+	left: 0;
+	letter-spacing: 0;
+	line-height: normal;
+	position: absolute;
+	top: -1px;
+	width: 381px;
+  }
+  
+  .item-detail .item-detail-quantity {
+	background-color: #ffffff;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	height: 30px;
+	position: relative;
+	width: 381px;
+  }
+  
+  .item-detail .item-detail-quantity-input {
+	flex: 0 0 auto !important;
+	width: 30%;
+	height: 100%;
+  }
+  
+  .item-detail .style-light {
+	height: 12px !important;
+	position: relative !important;
+	width: 12px !important;
+  }
+  
+  .item-detail .item-detail-hr-mini {
+	background-color: #000000;
+	height: 5px;
+	position: relative;
+	width: 381px;
+  }
+  
+  .item-detail .item-detail-button {
+	align-items: flex-start;
+	display: flex;
+	flex: 0 0 auto;
+	gap: 10px;
+	padding: 0px 27px;
+	position: relative;
+	width: 381px;
+  }
+  
+  .item-detail .button-cart {
+	background-color: #f5f5f5;
+	border-radius: 10px;
+	height: 60px;
+	overflow: hidden;
+	position: relative;
+	width: 160px;
+  }
+  
+  .item-detail .button-cart-text {
+	color: #000000;
+	font-family: var(--semi-bold-text-xl-20-font-family);
+	font-size: var(--semi-bold-text-xl-20-font-size);
+	font-style: var(--semi-bold-text-xl-20-font-style);
+	font-weight: var(--semi-bold-text-xl-20-font-weight);
+	height: 60px;
+	left: 0;
+	letter-spacing: var(--semi-bold-text-xl-20-letter-spacing);
+	line-height: var(--semi-bold-text-xl-20-line-height);
+	position: absolute;
+	text-align: center;
+	top: -1px;
+	width: 160px;
+  }
+  
+  .item-detail .button-buy-instance {
+	margin-right: -3px !important;
+  }
+  
+  .item-detail .bottom {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	height: 294px;
+	position: relative;
+	width: 856px;
+  }
+  
+  .item-detail .item-detail-hr {
+	background-color: #000000;
+	height: 5px;
+	position: relative;
+	width: 856px;
+  }
+  
+  .item-detail .item-detail-lowprice {
+	align-items: flex-start;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	height: 289px;
+	padding: 20px 10px;
+	position: relative;
+	width: 856px;
+  }
+  
+  .item-detail .lowprice-title {
+	color: #000000;
+	font-family: "Noto Sans KR";
+	font-size: 20px;
+	font-weight: 900;
+	height: 30px;
+	position: relative;
+	width: 836px;
+  }
+  
+  .item-detail .item-detail-lowprice-3 {
+	align-items: flex-start;
+	background-color: #f5f5f5;
+	border-radius: 10px;
+	display: flex;
+	gap: 20px;
+	height: 179px;
+	overflow: hidden;
+	padding: 15px 20px;
+	position: relative;
+	width: 836px;
+  }
+  
+  .item-detail .lowprice-img {
+	background-image: url(../assets/images/home_item_img.png);
+	background-position: 50% 50%;
+	background-size: cover;
+	height: 149px;
+	position: relative;
+	width: 210px;
+  }
+  
+  .item-detail .lowprice-info {
+	align-items: flex-start;
+	display: inline-flex;
+	flex: 0 0 auto;
+	flex-direction: column;
+	margin-bottom: -1px;
+	padding: 20px 0px;
+	position: relative;
+  }
+  
+  .item-detail .lowprice-name-wrapper {
+	height: 60px;
+	position: relative;
+	width: 566px;
+  }
+  
+  .item-detail .lowprice-price-wrapper {
+	height: 50px;
+	position: relative;
+	width: 566px;
+  }
+  

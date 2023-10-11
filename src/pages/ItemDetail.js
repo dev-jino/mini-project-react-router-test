@@ -1,75 +1,88 @@
-import './ItemDetail.css';
+import "./ItemDetail.css";
 
 function ItemDetail() {
-    return (
-        <div class="main">
-            <div class="item-detail-container">
-                <div class="item-detail-title">
-                    <span class="item-detail-title-msg">상품 상세</span>
-                </div>
-                <div class="item-detail-row">
-                    <div class="item-detail-left">
-                        <div className="item-detail-img"></div>
-                    </div>
-                    <div class="item-detail-right">
-                        <div class="item-detail-name">
-                            <span class="item-detail-name-text">나이키2</span>
-                        </div>
-                        <div class="item-detail-price">
-                            <span class="item-detail-price-text">210,000원</span>
-                        </div>
-                        <div class="item-detail-quantity">
-                            {/* <div class="e41_233">
-                                <div class="ei41_233_1000_735">
-                                    <div class="ei41_233_1000_735_1000_748">
-                                        <div class="ei41_233_1000_735_1000_748_996_685"></div>
-                                    </div>
-                                </div>
-                                <div class="ei41_233_1000_736">
-                                    <span class="ei41_233_1000_736_1000_762">1</span>
-                                </div>
-                                <div class="ei41_233_1000_737">
-                                    <div class="ei41_233_1000_737_1000_748">
-                                        <div class="ei41_233_1000_737_1000_748_996_667"></div>
-                                    </div>
-                                </div>
-                            </div> */}
-                            <input className='item-detail-quantity-input' type='number'></input>
-                        </div>
-                        <div class="item-detail-button">
-                            <div class="button-cart">
-                                <span class="button-cart-text">장바구니</span>
-                            </div>
-                            <div class="button-buy">
-                                <span class="button-buy-text">구매하기</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="item-detail-bottom">
-                    <div className='item-detail-hr'></div>
-                    <div class="item-detail-lowprice">
-                        <div class="item-detail-lowprice-text">
-                            <span>네이버 최저가</span>
-                        </div>
-                        <div class="item-detail-lowprice-wrap">
-                            <div class="item-detail-lowprice-wrap-left">
-                                <div className='item-detail-lowprice-img'></div>
-                            </div>
-                            <div class="item-detail-lowprice-wrap-right">
-                                <div class="item-detail-lowprice-name">
-                                    <span class="item-detail-name-text">나이키2</span>
-                                </div>
-                                <div class="item-detail-lowprice-price">
-                                    <span class="item-detail-price-text">210,000원</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+  return (
+    <div className="item-detail">
+      <div className="wrapper">
+        <div className="main">
+          <div className="container-2">
+            <div className="title">
+              <div className="title-msg">상품 상세</div>
             </div>
+            <div className="row">
+              <div className="item-detail-left">
+                <div className="item-detail-img" />
+              </div>
+              <div className="item-detail-right">
+                <div className="item-detail-name">
+                  <div className="item-detail-name-text">나이키2</div>
+                </div>
+                <div className="item-detail-price">
+                  <div className="item-detail-price-text">210,000원</div>
+                </div>
+                <div className="item-detail-quantity">
+                  <input type="number" className="item-detail-quantity-input"></input>
+                </div>
+                <div className="item-detail-hr-mini" />
+                <div className="item-detail-button">
+                  <div className="button-cart">
+                    <div className="button-cart-text">장바구니</div>
+                  </div>
+                  <div className="button-cart">
+                    <div className="button-cart-text">구매하기</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="bottom">
+              <div className="item-detail-hr" />
+              <div className="item-detail-lowprice">
+                <div className="lowprice-title">네이버 최저가</div>
+
+                {/* <div className="item-detail-lowprice-3">
+                  <div className="item-detail-lowprice-4" />
+                  <div className="item-detail-lowprice-5">
+                    <div className="item-detail-name-wrapper">
+                      <div className="item-detail-name-2">나이키2</div>
+                    </div>
+                    <div className="item-detail-price-wrapper">
+                      <div className="item-detail-price-2">210,000원</div>
+                    </div>
+                  </div>
+                </div> */}
+
+                <ul>
+                  <li className="item-detail-lowprice-3">
+                    <div className="lowprice-img" />
+                    <div className="lowprice-info">
+                      <div className="lowprice-name-wrapper">
+                        <div className="lowprice-name-text">나이키2</div>
+                      </div>
+                      <div className="lowprice-price-wrapper">
+                        <div className="lowprice-price-text">210,000원</div>
+                      </div>
+                    </div>
+                  </li>
+                  <li className="item-detail-lowprice-3">
+                    <div className="lowprice-img" />
+                    <div className="lowprice-info">
+                      <div className="lowprice-name-wrapper">
+                        <div className="lowprice-name-text">나이키2</div>
+                      </div>
+                      <div className="lowprice-price-wrapper">
+                        <div className="lowprice-price-text">210,000원</div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+
+              </div>
+            </div>
+          </div>
         </div>
-    );
+      </div>
+    </div>
+  );
 }
 
 export default ItemDetail;

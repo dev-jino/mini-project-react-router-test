@@ -1,0 +1,103 @@
+.login {
+    align-items: flex-start;
+    background-color: #ffffff;
+    display: flex;
+    gap: 10px;
+    height: 424px;
+    min-width: 1440px;
+    position: relative;
+    width: 100%;
+    top: 70px;
+}
+
+.login .wrapper {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 1440px;
+    height: 100%;
+    /* ********************************* */
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    /* ********************************* */
+}
+
+.login .main {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 754px;
+    padding: 30px 0px;
+    position: relative;
+    width: 1440px;
+}
+
+.login .container-2 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    height: 724px;
+    margin-bottom: -30px;
+    padding: 0px 88px;
+    position: relative;
+    width: 1032px;
+}
+
+.login .title {
+    align-items: flex-end;
+    display: flex;
+    height: 80px;
+    position: relative;
+    width: 856px;
+}
+
+.login .title-msg {
+    color: #000000;
+    font-family: "Inter-Black", Helvetica;
+    font-size: 24px;
+    font-weight: 900;
+    height: 50px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    width: 856px;
+}
+
+.login .order-check-pre {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 10px;
+    padding: 10px 0px;
+    position: relative;
+    width: 239px;
+}
+
+.login .button-confirm {
+    align-items: flex-start;
+    background-color: #fbf445;
+    border-radius: 10px;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.login .button-confirm-text {
+    color: #000000;
+    font-family: var(--semi-bold-text-xl-20-font-family);
+    font-size: var(--semi-bold-text-xl-20-font-size);
+    font-style: var(--semi-bold-text-xl-20-font-style);
+    font-weight: var(--semi-bold-text-xl-20-font-weight);
+    height: 60px;
+    letter-spacing: var(--semi-bold-text-xl-20-letter-spacing);
+    line-height: var(--semi-bold-text-xl-20-line-height);
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    width: 239px;
+}

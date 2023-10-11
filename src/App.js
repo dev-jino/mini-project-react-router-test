@@ -10,6 +10,7 @@ import Layout from './components/Layout';
 import ItemDetail from './pages/ItemDetail';
 // import OrderCheck from './pages/OrderCheck';
 import Order from './pages/Order';
+import Login from './pages/Login';
 
 
 function App() {
@@ -25,9 +26,11 @@ function App() {
           <Route path='/' element={<Main />}/>
         </Route>
         <Route element={<Layout />}>
+          {/* <Route path='/item-detail' element={<ItemDetail />}/> */}
           <Route path='/item-detail' element={<ItemDetail />}/>
           {/* <Route path='/order-check' element={<OrderCheck />}/> */}
           <Route path='/order' element={<Order />}/>
+          <Route path='/login' element={<Login />}/>
         </Route>
       </Routes>
     </BrowserRouter>
