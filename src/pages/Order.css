@@ -1,0 +1,299 @@
+.order {
+    align-items: flex-start;
+    background-color: #ffffff;
+    display: flex;
+    gap: 10px;
+    height: 424px;
+    min-width: 1440px;
+    position: relative;
+    width: 100%;
+    top: 70px;
+}
+
+.order .wrapper {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 1440px;
+    height: 100%;
+    /* ********************************* */
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    /* ********************************* */
+}
+
+.order .header-instance {
+    align-self: stretch !important;
+    width: 100% !important;
+}
+
+.order .main {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 754px;
+    padding: 30px 0px;
+    position: relative;
+    width: 1440px;
+}
+
+.order .container-2 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    height: 724px;
+    margin-bottom: -30px;
+    padding: 0px 88px;
+    position: relative;
+    width: 1032px;
+}
+
+.order .title {
+    align-items: flex-end;
+    display: flex;
+    height: 80px;
+    position: relative;
+    width: 856px;
+}
+
+.order .title-msg {
+    color: #000000;
+    font-family: "Inter-Black", Helvetica;
+    font-size: 24px;
+    font-weight: 900;
+    height: 50px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    width: 856px;
+}
+
+.order .row {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 58px;
+    padding: 30px 18px;
+    position: relative;
+    width: 856px;
+}
+
+.order .item-order-left {
+    align-items: flex-start;
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    position: relative;
+    width: 381px;
+}
+
+.order .item-order-item {
+    align-items: flex-start;
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    gap: 10px;
+    height: 136px;
+    overflow: hidden;
+    padding: 10px;
+    position: relative;
+    width: 341px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.order .item-order-item-img {
+    background-image: url(../assets/images/home_item_img.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 10px;
+    height: 116px;
+    position: relative;
+    width: 123px;
+}
+
+.order .item-order-item-info {
+    align-items: flex-start;
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    height: 116px;
+    overflow: hidden;
+    padding: 10px;
+    position: relative;
+    width: 188px;
+}
+
+.order .item-order-item-name {
+    color: #000000;
+    font-family: "Inter-Black", Helvetica;
+    font-size: 16px;
+    font-weight: 900;
+    height: 26px;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-right: -1px;
+    margin-top: -1px;
+    position: relative;
+    width: 169px;
+}
+
+.order .item-order-item-2 {
+    color: #000000;
+    font-family: "Inter-Black", Helvetica;
+    font-size: 16px;
+    font-weight: 900;
+    height: 26px;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-right: -1px;
+    position: relative;
+    width: 169px;
+}
+
+.order .item-order-item-img-2 {
+    background-image: url(../assets/images/home_item_img.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 10px;
+    height: 116px;
+    position: relative;
+    width: 123px;
+}
+
+.order .item-order-item-name-wrapper {
+    align-items: flex-start;
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    gap: 10px;
+    height: 55px;
+    overflow: hidden;
+    padding: 10px;
+    position: relative;
+    width: 341px;
+}
+
+.order .item-order-item-name-2 {
+    color: #000000;
+    font-family: "Inter-Black", Helvetica;
+    font-size: 16px;
+    font-weight: 900;
+    height: 35px;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    text-align: right;
+    width: 321px;
+}
+
+.order .item-order-right {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 584px;
+    position: relative;
+    width: 381px;
+}
+
+.order .div-2 {
+    align-items: flex-start;
+    background-color: #ffffff;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    position: relative;
+}
+
+.order .text-wrapper-2 {
+    color: #000000;
+    font-family: "Inter-Black", Helvetica;
+    font-size: 20px;
+    font-weight: 900;
+    height: 30px;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: 381px;
+}
+
+.order .order-input-tag {
+    height: 33px !important;
+    position: relative !important;
+    width: 381px !important;
+    background-color: #f5f5f5;
+    font-size: 20px;
+    outline: none;
+    border: 0;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.order .order-input-tag-mini {
+    height: 33px !important;
+    position: relative !important;
+    width: 210px !important;
+    background-color: #f5f5f5;
+    font-size: 20px;
+    outline: none;
+    border: 0;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.order .item-order-user {
+    align-items: flex-start;
+    background-color: #ffffff;
+    display: flex;
+    flex: 0 0 auto;
+    flex-wrap: wrap;
+    gap: 10px 10px;
+    position: relative;
+    width: 381px;
+}
+
+.order .home-search-input-instance {
+    height: 33px !important;
+    position: relative !important;
+    width: 211px !important;
+}
+
+.order .order-find-zipcode-button, .order .order-button {
+    background-color: #8f8ff1;
+    border-radius: 10px;
+    height: 33px;
+    overflow: hidden;
+    position: relative;
+    width: 160px;
+    right: 0;
+    font-size: 20px;
+    font-family: 'Noto Sans KR';
+}
+
+.order .item-detail-hr {
+    background-color: #000000;
+    height: 5px;
+    position: relative;
+    width: 381px;
+}
+
+.order .order-button-wrap {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 10px;
+    justify-content: flex-end;
+    position: relative;
+    width: 381px;
+    top:0px;
+}
